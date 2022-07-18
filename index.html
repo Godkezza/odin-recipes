@@ -6,6 +6,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link href="http://fonts.cdnfonts.com/css/vegan-style-personal-use" rel="stylesheet">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Swedish Chef's Special Lasagna(s)</title>
@@ -14,23 +15,33 @@
         
     </head>
     <body>
-        <div>
+        <div class="chef"> 
             <a class="no-underline" href="./index.html">
-                <h1 class="Header">Chef's Special Lasagna(s)</h1>
+                <img id="headimg" src="./images/Swedish_Che.webp">
+                <p class="header">Chef's Special Lasagna(s)</p>
             </a>
         </div>
-        <div><img class="headimg" src="./images/swedish_chef.jpg"></div>
-        <div>
-            <img class="recimg" src="./images/lasagna.jpg">
-            <img class="recimg" src="./images/lasagna.jpg">
-            <img class="recimg" src="./images/lasagna.jpg">
-        </div>
-        <div>
-            <ul>
-                <li><a class="recipes no-underline" href="./recipes/lasagna.html">Lasagna</a></li>
-                <li><a class="recipes no-underline" href="./recipes/lasagnabetter.html">Better Lasagna</a></li>
-                <li><a class="recipes no-underline" href="./recipes/lasagnabest.html"><em>Best</em> Lasagna</a></li>
-            </ul>
+        
+        <div class="scallop-down"></div>
+        <div id="recipes">
+            <div id="left">
+                <a class="no-underline" href="./recipes/The Original.html">
+                    <img class="recimg" src="./images/lasagna.jpg">
+                    <p class="rectxt">The Original</p>
+                </a>
+            </div>
+            <div id="center">
+                <a class="no-underline" href="./recipes/lasagnabest.html">
+                    <img class="recimg" src="./images/lasagna.jpg">
+                    <p class="rectxt">The Improved</p>
+                </a>
+            </div>
+            <div id="right">
+                <a class="no-underline" href="./recipes/lasagnabetter.html">
+                    <img class="recimg" src="./images/lasagna.jpg">
+                    <p class="rectxt">The Modern Take</p>
+                </a>
+            </div>
         </div>
         
     </body>
